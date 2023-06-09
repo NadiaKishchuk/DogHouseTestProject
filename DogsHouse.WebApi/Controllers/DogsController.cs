@@ -1,9 +1,9 @@
 ﻿using DogsHouse.BLL.DTO.AdditionalRequestDTO;
 using DogsHouse.BLL.DTO.Dogs;
 using DogsHouse.BLL.MediatR.Dogs.Create;
-using DogsHouse.BLL.MediatR.Dogs.GetAll;
 using DogsHouse.BLL.MediatR.Dogs.GetAllWithParams;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Routing;
 using System.ComponentModel.DataAnnotations;
 
 namespace DogsHouse.WebApi.Controllers
@@ -11,17 +11,11 @@ namespace DogsHouse.WebApi.Controllers
     public class DogsController: BaseController
     {
         [HttpGet]
-        [Route("[action]")]
-        public async Task<ActionResult> GetAll()
-        {
-            return HandleResult(await Mediator.Send(new GetAllDogQuery()));
-        }
-
-        [HttpGet]
         [Route("dogs")]
         public async Task<ActionResult> GetDogsParms(string? attribute, string? order,
-            [Range(1,int.MaxValue)]int? pageNumber, [Range(1, int.MaxValue)] int? limit)
-        {
+            [Range(1, int.MaxValue)] int? pageNumber, [Range(1, int.MaxValue), FromQuery(Name = "limit=pageSize")] int? limit)
+        { 
+        
             OrderEnum? orderEnum=null;
             if (order!=null)
             {

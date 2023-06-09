@@ -1,5 +1,4 @@
 ﻿using FluentResults;
-using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DogsHouse.WebApi.Controllers;
@@ -16,5 +15,4 @@ public class InfoController : BaseController
     {
         return HandleResult(Result.Ok(_configuration["Messages:Default"]));
     }
-
 }

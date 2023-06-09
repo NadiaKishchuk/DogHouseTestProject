@@ -1,18 +1,12 @@
 ﻿using AutoMapper;
 using DogsHouse.BLL.DTO.Dogs;
 using DogsHouse.BLL.MediatR.Dogs.Create;
-using DogsHouse.BLL.MediatR.Dogs.GetAllWithParams;
 using DogsHouse.DAL.Entities;
 using DogsHouse.DAL.Repositories.Wrapper;
 using DogsHouse.Tests.Utils;
 using Microsoft.EntityFrameworkCore.Query;
 using Moq;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 using Xunit;
 
 namespace DogsHouse.Tests.Dogs
@@ -49,40 +43,6 @@ namespace DogsHouse.Tests.Dogs
                 .ReturnsAsync(dog);
         }
 
-        private readonly List<Dog> dogs = new List<Dog>()
-        {
-            new Dog
-            {
-                Color = "red",
-                Name = "Jenny",
-                TailLength = 3,
-                Weight = 5
-            },
-            new Dog
-            {
-                Color = "bedge",
-                Name = "Mayk",
-                TailLength = 13,
-                Weight = 53
-            }
-        };
-        private readonly List<DogDTO> dogsDTO = new List<DogDTO>()
-        {
-            new DogDTO
-            {
-                Color = "red",
-                Name = "Jenny",
-                tail_length = 3,
-                Weight = 5
-            },
-            new DogDTO
-            {
-                Color = "bedge",
-                Name = "Mayk",
-                tail_length = 13,
-                Weight = 53
-            }
-        };
         void SetupMapper()
         {
             _mockMapper.Setup(x => x.Map<IEnumerable<DogDTO>>(It.IsAny<IEnumerable<Dog>>()))

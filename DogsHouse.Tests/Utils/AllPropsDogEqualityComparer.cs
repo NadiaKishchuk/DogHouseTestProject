@@ -1,10 +1,5 @@
 ﻿using DogsHouse.BLL.DTO.Dogs;
-using System;
-using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DogsHouse.Tests.Utils
 {

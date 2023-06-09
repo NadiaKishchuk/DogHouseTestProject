@@ -54,7 +54,7 @@ namespace DogsHouse.BLL.MediatR.Dogs.GetAllWithParams
                     case OrderEnum.Desc:
                         dogs = dogs.OrderByDescending(ToLambda<Dog>(prop.Name));
                         break;
-                    case OrderEnum.Ascen:
+                    case OrderEnum.Asc:
                         dogs = dogs.OrderBy(ToLambda<Dog>(prop.Name));
                         break;
                 }

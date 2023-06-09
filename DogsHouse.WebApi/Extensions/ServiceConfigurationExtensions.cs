@@ -29,15 +29,12 @@ namespace DogsHouse.WebApi.Extensions
 
         public static void ConfigureRateLimiter(this IServiceCollection services, ConfigurationManager configuration)
         {
-
             services.AddMemoryCache();
             services.Configure<IpRateLimitOptions>(options =>
             {
-                options.EnableEndpointRateLimiting = true;
+                options.EnableEndpointRateLimiting = false;
                 options.StackBlockedRequests = false;
-                options.HttpStatusCode = 429;
-                options.RealIpHeader = "X-Real-IP";
-                options.ClientIdHeader = "X-ClientId";
+                options.HttpStatusCode = StatusCodes.Status429TooManyRequests;
                 options.GeneralRules = new List<RateLimitRule>
                 {
                     new RateLimitRule
@@ -47,6 +44,7 @@ namespace DogsHouse.WebApi.Extensions
                         Limit = double.Parse(configuration["RateLimitRuleProps:Limit"]),
                     }
                 };
+                
             });
             services.AddSingleton<IIpPolicyStore, MemoryCacheIpPolicyStore>();
             services.AddSingleton<IRateLimitCounterStore, MemoryCacheRateLimitCounterStore>();

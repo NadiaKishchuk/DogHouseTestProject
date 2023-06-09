@@ -1,10 +1,5 @@
 ﻿using DogsHouse.BLL.DTO.AdditionalRequestDTO;
 using DogsHouse.BLL.DTO.Dogs;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DogsHouse.Tests.Dogs
 {
@@ -25,27 +20,27 @@ namespace DogsHouse.Tests.Dogs
 
         public static IEnumerable<object[]> TestCases => new List<object[]>()
                 {
-            new object[] {"name", OrderEnum.Ascen, CompareByNameAsc},
-            new object[] {"Name", OrderEnum.Ascen, CompareByNameAsc},
-            new object[] {"naMe", OrderEnum.Ascen, CompareByNameAsc},
+            new object[] {"name", OrderEnum.Asc, CompareByNameAsc},
+            new object[] {"Name", OrderEnum.Asc, CompareByNameAsc},
+            new object[] {"naMe", OrderEnum.Asc, CompareByNameAsc},
             new object[] {"name", OrderEnum.Desc, CompareByNameDesc},
             new object[] {"Name", OrderEnum.Desc, CompareByNameDesc},
             new object[] {"naMe", OrderEnum.Desc, CompareByNameDesc},
 
-            new object[] {"weight", OrderEnum.Ascen, CompareByWeightAsc},
+            new object[] {"weight", OrderEnum.Asc, CompareByWeightAsc},
             new object[] {"weight", OrderEnum.Desc, CompareByWeightDesc},
-            new object[] {"weIght", OrderEnum.Ascen, CompareByWeightAsc},
+            new object[] {"weIght", OrderEnum.Asc, CompareByWeightAsc},
             new object[] {"weighT", OrderEnum.Desc, CompareByWeightDesc},
 
 
-            new object[] { "tail_length", OrderEnum.Ascen, CompareByTailLengthAsc},
+            new object[] { "tail_length", OrderEnum.Asc, CompareByTailLengthAsc},
             new object[] { "tail_length", OrderEnum.Desc, CompareByTailLengthDesc},
-            new object[] { "tailleNgth", OrderEnum.Ascen, CompareByTailLengthAsc},
+            new object[] { "tailleNgth", OrderEnum.Asc, CompareByTailLengthAsc},
             new object[] { "Taillength", OrderEnum.Desc, CompareByTailLengthDesc},
 
-            new object[] { "Color", OrderEnum.Ascen, CompareByColorAsc},
+            new object[] { "Color", OrderEnum.Asc, CompareByColorAsc},
             new object[] { "Color", OrderEnum.Desc, CompareByColorDesc},
-            new object[] { "color", OrderEnum.Ascen, CompareByColorAsc},
+            new object[] { "color", OrderEnum.Asc, CompareByColorAsc},
             new object[] { "color", OrderEnum.Desc, CompareByColorDesc},
 
         };
