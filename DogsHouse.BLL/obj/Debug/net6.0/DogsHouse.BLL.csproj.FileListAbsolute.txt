@@ -1,0 +1,15 @@
+D:\TestTask\CodebrigdeDogsHouse\DogsHouse.BLL\bin\Debug\net6.0\DogsHouse.BLL.deps.json
+D:\TestTask\CodebrigdeDogsHouse\DogsHouse.BLL\bin\Debug\net6.0\DogsHouse.BLL.dll
+D:\TestTask\CodebrigdeDogsHouse\DogsHouse.BLL\bin\Debug\net6.0\DogsHouse.BLL.pdb
+D:\TestTask\CodebrigdeDogsHouse\DogsHouse.BLL\bin\Debug\net6.0\DogsHouse.DAL.dll
+D:\TestTask\CodebrigdeDogsHouse\DogsHouse.BLL\bin\Debug\net6.0\DogsHouse.DAL.pdb
+D:\TestTask\CodebrigdeDogsHouse\DogsHouse.BLL\obj\Debug\net6.0\DogsHouse.BLL.csproj.AssemblyReference.cache
+D:\TestTask\CodebrigdeDogsHouse\DogsHouse.BLL\obj\Debug\net6.0\DogsHouse.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\TestTask\CodebrigdeDogsHouse\DogsHouse.BLL\obj\Debug\net6.0\DogsHouse.BLL.AssemblyInfoInputs.cache
+D:\TestTask\CodebrigdeDogsHouse\DogsHouse.BLL\obj\Debug\net6.0\DogsHouse.BLL.AssemblyInfo.cs
+D:\TestTask\CodebrigdeDogsHouse\DogsHouse.BLL\obj\Debug\net6.0\DogsHouse.BLL.csproj.CoreCompileInputs.cache
+D:\TestTask\CodebrigdeDogsHouse\DogsHouse.BLL\obj\Debug\net6.0\DogsHouse.BLL.csproj.CopyComplete
+D:\TestTask\CodebrigdeDogsHouse\DogsHouse.BLL\obj\Debug\net6.0\DogsHouse.BLL.dll
+D:\TestTask\CodebrigdeDogsHouse\DogsHouse.BLL\obj\Debug\net6.0\refint\DogsHouse.BLL.dll
+D:\TestTask\CodebrigdeDogsHouse\DogsHouse.BLL\obj\Debug\net6.0\DogsHouse.BLL.pdb
+D:\TestTask\CodebrigdeDogsHouse\DogsHouse.BLL\obj\Debug\net6.0\ref\DogsHouse.BLL.dll

@@ -1,0 +1,14 @@
+D:\TestTask\CodebrigdeDogsHouse\DogsHouse.DDL\DogsHouse.DDL\bin\Debug\net6.0\DogsHouse.DDL.deps.json
+D:\TestTask\CodebrigdeDogsHouse\DogsHouse.DDL\DogsHouse.DDL\bin\Debug\net6.0\DogsHouse.DDL.runtimeconfig.json
+D:\TestTask\CodebrigdeDogsHouse\DogsHouse.DDL\DogsHouse.DDL\bin\Debug\net6.0\DogsHouse.DDL.dll
+D:\TestTask\CodebrigdeDogsHouse\DogsHouse.DDL\DogsHouse.DDL\bin\Debug\net6.0\DogsHouse.DDL.pdb
+D:\TestTask\CodebrigdeDogsHouse\DogsHouse.DDL\DogsHouse.DDL\obj\Debug\net6.0\DogsHouse.DDL.csproj.AssemblyReference.cache
+D:\TestTask\CodebrigdeDogsHouse\DogsHouse.DDL\DogsHouse.DDL\obj\Debug\net6.0\DogsHouse.DDL.GeneratedMSBuildEditorConfig.editorconfig
+D:\TestTask\CodebrigdeDogsHouse\DogsHouse.DDL\DogsHouse.DDL\obj\Debug\net6.0\DogsHouse.DDL.AssemblyInfoInputs.cache
+D:\TestTask\CodebrigdeDogsHouse\DogsHouse.DDL\DogsHouse.DDL\obj\Debug\net6.0\DogsHouse.DDL.AssemblyInfo.cs
+D:\TestTask\CodebrigdeDogsHouse\DogsHouse.DDL\DogsHouse.DDL\obj\Debug\net6.0\DogsHouse.DDL.csproj.CoreCompileInputs.cache
+D:\TestTask\CodebrigdeDogsHouse\DogsHouse.DDL\DogsHouse.DDL\obj\Debug\net6.0\DogsHouse.DDL.dll
+D:\TestTask\CodebrigdeDogsHouse\DogsHouse.DDL\DogsHouse.DDL\obj\Debug\net6.0\refint\DogsHouse.DDL.dll
+D:\TestTask\CodebrigdeDogsHouse\DogsHouse.DDL\DogsHouse.DDL\obj\Debug\net6.0\DogsHouse.DDL.pdb
+D:\TestTask\CodebrigdeDogsHouse\DogsHouse.DDL\DogsHouse.DDL\obj\Debug\net6.0\DogsHouse.DDL.genruntimeconfig.cache
+D:\TestTask\CodebrigdeDogsHouse\DogsHouse.DDL\DogsHouse.DDL\obj\Debug\net6.0\ref\DogsHouse.DDL.dll
